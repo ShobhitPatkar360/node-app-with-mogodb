@@ -5,10 +5,10 @@
 ## Data from postman
 1. url=> (GET) http://<your-ip>:<your-port>/users
 2. body=> raw => json =>
+   ```bash
+      {
+   "name": "ritik",
+   "email": "ritik@gmail.com",
+   "age": 7541684194
+   }
    ```
-   {
-  "name": "ritik",
-  "email": "ritik@gmail.com",
-  "age": 7541684194
-    }
-  ```
