@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const CONN = process.env.CONN;
 
-mongoose.connect('mongodb://13.201.71.69:27017', { useNewUrlParser: true });
+mongoose.connect(CONN, { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
