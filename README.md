@@ -3,7 +3,7 @@
 2. Provide the Port in env variable in which your application will listen the api requests from postman
 
 ## Data from postman
-1. url=> (GET) http://<your-ip>:<your-port>/users
+1. url=> (GET) http://your-ip:your-port/users
 2. body=> raw => json =>
    ```bash
       {
